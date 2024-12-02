@@ -14,7 +14,7 @@ fi
 
 cd "day$numDay"
 
-touch advent.py && touch input.txt
+touch advent.py && touch input.txt && touch example.txt
 
 curl -o input.txt -b session=$(cat ../.aocrc) -H "User-Agent: pekka-1992@hotmail.com" https://adventofcode.com/2024/day/$numDay/input
 
